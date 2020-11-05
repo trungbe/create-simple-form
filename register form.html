@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Student From</title>
+    <style>
+        h2 {
+            background-color: lightblue;
+            color: blue
+        }
+
+
+    </style>
+</head>
+<body>
+<form method="get" action="register%20form.html" style="max-width: 320px;background-color: lightgoldenrodyellow">
+    <fieldset>
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        <table>
+            <tr>
+                <td>Họ và Tên</td>
+                <td><input type="text" style="float-wrap: unset" name="yourname"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" checked><label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female"><label for="male">Female</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="display: flex">Địa chỉ</td>
+                <td>
+                    <textarea name=""  rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select>
+                        <option value="0" selected>--Chọn lớp--</option>
+                        <option value="1" >Java</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email">
+                </td>
+            </tr>
+            <tr>
+                <td>Số điện thoại</td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Đăng ký</button>
+                    <button>Nhập lại</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
